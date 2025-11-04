@@ -1,29 +1,80 @@
-# Project XYZ
+# Retail Sales Analytics 
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+**Project Content ** 
+- README.md
+- Project Board 
+- Dataset
+- Jupyter Notebook 
+- Dashboard 
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+Project Overview 
+- In this project , I analysed retail sales data to discover trends, patterns and performance drivers across stores and products. 
+- The goal was to practise a full data-analysis workflow -from cleaning and exploration to building a simple machine-learning model and visual dashboard. 
+- I wanted to understand what effects sales the most, whether certain stores or product categories perform better, and how this information can support business decisions. 
+
+
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+* The dataset was sourced from Kaggle (sales Forecasting Dataset by Rohit Sahoo).
+
+It contains :
+- Daily sales transaction by store and project 
+- Date , Item number, and units sold 
+- Historicatl sales across multiple stores 
+
+Before analysis, i cleaned the dataset by handling missing values, renaming columns and converting data types for easier manipulation. 
+The cleaned version is saved as Cleaned_sales_data.csv. 
+  
 
 
 ## Business Requirements
-* Describe your business requirements
+The analysis focuses on understanding overall sales trends over time. 
+
+Key goals include: 
+
+- Identify overall sales trends over time. 
+- Compare product and store performance. 
+- Detect seasonal or monthly patterns. 
+- Build a basic Linear Regression model to forecast future sales. 
+- Present key findings in a clear interactive dashboard. 
+
+These Questions Guided my analysis and visualisation design. 
+
+1. Which factors drive sales performance?
+2. Are there seasonal or regional patterns? 
+3. Can a basic regression model predict next month's sales? 
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+
+* Hypothesis 1: Sales very significanly by product and season
+
+* Hypothesis 2: Certain stores maintain consistently higher performance. 
+
+* Validation Steps:
+- Visualise total sales by month and product. 
+- compare performance between stores. 
+- build regression model and evaluate accuracy (MAE/MSE/R)
+
 
 ## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+* Combine setup, date import and cleaning (DAys 1-3) 
+Train a basic regression model (Day 4) 
+Create dashboards and polish README (DAY 5)
+
+Tools And Libraries 
+-Python 3 
+- Pandas, Numpy 
+- Matplotlib, Seaborn 
+- Scikit-learn 
+- Power BI 
+- VS Code + Github
+
 
 ## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
-
+*This section will be completed after I create my dashboard 
 ## Analysis techniques used
 * List the data analysis methods used and explain limitations or alternative approaches.
 * How did you structure the data analysis techniques. Justify your response.
