@@ -9,3 +9,13 @@ node_modules/
 cloudinary_python.txt
 kaggle.json
 .venv/
+# Ignore Data folders 
+data/raw/ 
+data/interim
+data/processed/
+
+ignore jupyter notebook checkpoints 
+.ipynb_checkpoints/
+
+# Ignore temporary or log files 
+*.log.DS_store
